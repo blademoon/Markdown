@@ -160,13 +160,11 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 Любой номер, относящийся к проблеме (Issue) или запросу на извлечение (Pull Request), будет автоматически преобразован в ссылку.
 Например, 
 
-	https://github.com/blademoon/Markdown/issues/1
+	Ссылка на ошибку #1.
 
 Будет выглядеть так:
 
-https://github.com/blademoon/Markdown/issues/1  
-
-
+Ссылка на ошибку #1.
 
 
 ## Картинки
