@@ -155,7 +155,7 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 	
 Будет выглядеть так:
 
-<blademoon@yandex.ru> 
+<blademoon@yandex.ru>	
 <https://www.yandex.ru>	
 
 
