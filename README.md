@@ -69,10 +69,16 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 ## Картинки
 Для вставки в текст картинок используется соответсвующий HTML код. 
 
-	<p align="left">
-	  <img width="200" height="200" src="https://github.com/blademoon/Coursera_Mathematics_for_Machine_Learning_Specialization/blob/main/Course_1_Mathematics_for_Machine_Learning-Linear_Algebra/Week%201/Test_1-1_picture_8.png">
+	<p align="center">
+	  <img width="200" height="200" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
 	</p>
 
+В итоге вставляемая картинка будет выглядеть так:
+<p align="center">
+  <img width="200" height="200" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
+</p>
+
+В теге align указывается выравнивание картинки. Картинку можно выровнять по центру (align="center"), а так же по левому (align="left") или правом (align="right") краю. 
 
 
 ## Цитаты.
