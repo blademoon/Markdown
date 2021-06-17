@@ -1,7 +1,6 @@
 # Примеры оформления
 
 
-
 ## Заголовки.
 Для задания заголовка и его уровня используется символ #
 
@@ -136,8 +135,6 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 &Alpha;
 
 
-
-
 ## Ссылки.
 Пример оформления ссылки выглядит следующим образом:
     
@@ -167,11 +164,22 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 	</p>
 
 В итоге вставляемая картинка будет выглядеть так:
+
 <p align="center">
   <img width=400" height="250" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
 </p>
 
 В теге align указывается выравнивание картинки. Картинку можно выровнять по центру (align="center"), а так же по левому (align="left") или правом (align="right") краю. 
+
+### Упрощенный порядок вставки картинок.
+Более простой вариант вставки картинки можно сделать так:
+
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+В итоге вставляемая картинка будет выглядеть так:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 ## Блоки кода и подсветка синтаксиса.
