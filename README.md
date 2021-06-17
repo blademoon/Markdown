@@ -174,12 +174,12 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 ### Упрощенный порядок вставки картинок.
 Более простой вариант вставки картинки можно сделать так:
 
-	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+	![Image of cat](https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg)
 
 
 В итоге вставляемая картинка будет выглядеть так:
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of cat](https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg)
 
 
 ## Блоки кода и подсветка синтаксиса.
