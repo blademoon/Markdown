@@ -67,15 +67,15 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 
 
 ## Картинки
-Для вставки в текст картинок используется соответсвующий HTML код. 
+Для вставки в текст картинок используется соответсвующий HTML код. В тегах width и height необходимо указать размер картинки, для ее правильного отображения.
 
 	<p align="center">
-	  <img width="200" height="200" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
+	  <img width="400" height="250" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
 	</p>
 
 В итоге вставляемая картинка будет выглядеть так:
 <p align="center">
-  <img width="200" height="200" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
+  <img width=400" height="250" src="https://github.com/blademoon/Markdown/blob/main/Picture/cat.jpg">
 </p>
 
 В теге align указывается выравнивание картинки. Картинку можно выровнять по центру (align="center"), а так же по левому (align="left") или правом (align="right") краю. 
