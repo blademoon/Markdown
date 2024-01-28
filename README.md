@@ -172,18 +172,6 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 
 В теге align указывается выравнивание картинки. Картинку можно выровнять по центру (align="center"), а так же по левому (align="left") или правом (align="right") краю. 
 
-## Вставка ссылки на видео с превью
-Для того чтобы вставить видео с YouTube с превью картикой нужно использовать следующий синтаксис:
-
-```text
-[![Текст к картинке](https://img.youtube.com/vi/YOUTUBE_ID_ВИДЕО/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_ID_ВИДЕО)
-```
-Получить ID от YouTube видео просто. ID это последние символы в ссылке получаемой по нажатию кнопки "Поделиться". Например, полученная с YouTube ссыулка на видео имеет следующий вид `https://youtu.be/94HLyui6eVk?si=lEgmVEtMnxgfZjvj`, тогда ID `lEgmVEtMnxgfZjvj`.
-В итоге видео `[![Best job in the world!](https://img.youtube.com/vi/94HLyui6eVk/0.jpg)](https://www.youtube.com/watch?v=94HLyui6eVk)` будет выглядеть так:
-
-[![Best job in the world!](https://img.youtube.com/vi/94HLyui6eVk/0.jpg)](https://www.youtube.com/watch?v=94HLyui6eVk)
-
-
 ### Упрощенный порядок вставки картинок.
 Более простой вариант вставки картинки можно сделать так:
 
@@ -196,6 +184,16 @@ SSR(p) = |f - g<sub>p</sub>|<sup>2</sup>
 
 ***НО! Выравнивание картинки по левому краю!***
 
+## Вставка ссылки на видео с превью
+Для того чтобы вставить видео с YouTube с превью картикой нужно использовать следующий синтаксис:
+
+```text
+[![Текст к картинке](https://img.youtube.com/vi/YOUTUBE_ID_ВИДЕО/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_ID_ВИДЕО)
+```
+Получить ID от YouTube видео просто. ID это последние символы в ссылке получаемой по нажатию кнопки "Поделиться". Например, полученная с YouTube ссыулка на видео имеет следующий вид `https://youtu.be/94HLyui6eVk?si=lEgmVEtMnxgfZjvj`, тогда ID `lEgmVEtMnxgfZjvj`.
+В итоге видео `[![Best job in the world!](https://img.youtube.com/vi/94HLyui6eVk/0.jpg)](https://www.youtube.com/watch?v=94HLyui6eVk)` будет выглядеть так:
+
+[![Best job in the world!](https://img.youtube.com/vi/94HLyui6eVk/0.jpg)](https://www.youtube.com/watch?v=94HLyui6eVk)
 
 ## Блоки кода и подсветка синтаксиса.
 Для вставки кода в документ необходимо использовать либо _блоки кода_ (начинаются и заканчиваются сиволами "```"), либо отсупы в 4 символа пробела ( или одину табуляцию). В блоках кода можно использовать подстветку синтаксиса путем указания языка на котором написан этот код.    
